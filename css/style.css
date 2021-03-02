@@ -1,0 +1,285 @@
+    body {
+        line-height: 2rem;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f2e7;
+        /* font-size: 2rem; */
+    }
+    
+    * {
+        box-sizing: border-box
+    }
+    /* .clearfix:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+            font-size: 0;
+        } */
+    
+    p {
+        color: #6c567b;
+    }
+    
+    a {
+        color: #9dad7f;
+    }
+    
+    a:hover {
+        color: #d8c292;
+    }
+    
+    .img {
+        width: 15%;
+        margin: 30px 30px 20px 0;
+    }
+    
+    h1 {
+        color: #333333;
+        font-family: 'Fredericka the Great', cursive;
+    }
+    
+    h2 {
+        color: #557174;
+        font-family: 'Fredericka the Great', cursive;
+    }
+    
+    h3 {
+        color: #b67171;
+        padding: 40px 0 20px;
+        font-size: 1.6rem;
+    }
+    
+    h4 {
+        color: #184d47;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    /* header */
+    
+    .header-contents {
+        padding-bottom: 30px;
+    }
+    
+    .navbar {
+        /* position: absolute; */
+        top: 5px;
+        left: 10px;
+        padding: 0;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+    /* .header-images {
+        padding: 0;
+        margin: 10px auto 10px;
+        position: relative;
+    }*/
+    
+    .earth-cartoon {
+        width: 80%;
+    }
+    /* .my-cartoon {
+        position: absolute;
+        width: 4%;
+        top: 14%;
+        right: 44%;
+        transform: rotate(29deg);
+    }  */
+    /*NAV*/
+    
+    nav {
+        padding: 20px 10px;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        padding: 8px;
+        color: #34626c;
+    }
+    
+    li a:hover:not(.activee) {
+        color: #797a7e;
+    }
+    
+    li a:hover {
+        text-decoration: none;
+    }
+    
+    .activee {
+        text-decoration: underline;
+    }
+    
+    li a:hover {
+        text-decoration: underline;
+        color: #34626c;
+    }
+    /* Hello */
+    
+    .hello {
+        margin: 80px auto;
+        width: 70%;
+    }
+    
+    .hello-h4 {
+        padding: 80px 0 40px;
+    }
+    
+    .profile-image {
+        width: 20%;
+        padding: 30px 0 40px;
+    }
+    
+    hr {
+        border: 1px solid #d8d3cd;
+        width: 70%;
+        margin-top: 70px;
+    }
+    /* section body */
+    
+    .info {
+        width: 50%;
+        margin: 30px auto 0;
+    }
+    
+    .section1 {
+        margin-bottom: 100px;
+    }
+    
+    .div {
+        text-align: left;
+    }
+    
+    .Certificated {
+        float: left;
+    }
+    
+    .section2 {
+        margin-bottom: 100px;
+    }
+    
+    .Gratuated {
+        float: left;
+    }
+    
+    .section3 {
+        margin-bottom: 100px;
+    }
+    
+    .My-Plan {
+        float: left;
+    }
+    
+    .web {
+        margin-bottom: 100px;
+    }
+    
+    .webdevelop {
+        float: left;
+    }
+    
+    .img1 {
+        width: 100%;
+    }
+    
+    .section4 {
+        margin-bottom: 100px;
+    }
+    
+    .Experiences {
+        float: left;
+    }
+    
+    .section5 {
+        margin-bottom: 100px;
+    }
+    
+    .Intrested-in {
+        float: left;
+    }
+    
+    .Get-in-Touch {
+        clear: left;
+        padding-top: 15px;
+    }
+    
+    .img1-h4 {
+        font-size: 1.3rem;
+        margin: 0 auto 30px;
+    }
+    /* @mediaQ */
+    
+    @media screen and (min-width: 500px) {
+        .img {
+            width: 15%;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .img {
+            width: 20%;
+        }
+    }
+    
+    @media screen and (min-width: 500px) {
+        .profile-image {
+            width: 20%;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .profile-image {
+            width: 60%;
+        }
+    }
+    
+    @media screen and (min-width: 500px) {
+        .earth-cartoon {
+            width: 80%;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .earth-cartoon {
+            width: 90%;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .explain {
+            text-align: justify;
+        }
+        .hello {
+            width: 80%;
+        }
+        hr {
+            width: 80%;
+        }
+        .info {
+            width: 90%;
+            margin: 30px auto 0;
+        }
+        p {
+            overflow: hidden;
+        }
+    }
